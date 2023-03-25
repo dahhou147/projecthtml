@@ -1,0 +1,74 @@
+ @import 'footer.css';
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+
+  }
+  header {
+	background-color: #1c79a1;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+}
+
+header img {
+	max-height: 100%;
+	max-width: 100%;
+}
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="email"], input[type="tel"], input[type="password"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  select {
+    height: 40px;
+  }
+  
+  textarea {
+    height: 80px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+ body
+ {
+    font-family: Arial, sans-serif;
+ }
+  h1 {
+	font-size: 24px;
+	margin: 20px 0;
+	text-align: center;
+}
+
+footer{
+    position: sticky;
+}

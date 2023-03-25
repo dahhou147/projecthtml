@@ -1,0 +1,86 @@
+@import 'footer.css';
+
+header {
+	background-color: #1c79a1;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+}
+
+header img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+
+.seller-profile {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e3e0e0;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin-top: 5px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="date"]:focus,
+  textarea:focus {
+    border-color: #0073e6;
+  }
+  
+  .sales-history,
+  .current-sales {
+    margin-bottom: 30px;
+  }
+  
+  .sell-btn a {
+    display: inline-block;
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sell-btn a:hover {
+    background-color: #004080;
+  }
+
+  footer
+{
+    position: sticky;
+}

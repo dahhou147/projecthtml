@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>compte Vendeur</title>
+        <link rel="stylesheet" href="compteVendeur.css">
+    </head>
+    <body>
+        <header>
+            <img src="exlogo.png" alt="Logo de votre entreprise">
+        </header>
+       
+<div class="seller-profile">
+    <h2>Informations personnelles</h2>
+    <div class="personal-info">
+      <div class="form-group">
+        <label for="first-name">Prénom :</label> <!--permet d'indiquer à l'utilisateur l'information à entrer dans ce champ.-->
+        <input type="text" id="first-name" name="first-name" value="Zakaria" disabled> <!--type, id et name sont utilisés pour identifier le champ, tandis que l'attribut value permet de spécifier une valeur par défaut à afficher dans le champ. Ici, la valeur par défaut est "Zak".-->
+      </div> <!--disabled est utilisé pour désactiver le champ, c'est-à-dire empêcher l'utilisateur de saisir ou de modifier le texte-->
+      <div class="form-group">
+        <label for="last-name">Nom :</label>
+        <input type="text" id="last-name" name="last-name" value="El Ghoul" disabled>
+      </div>
+      <div class="form-group">
+        <label for="birthdate">Date de naissance :</label>
+        <input type="date" id="birthdate" name="birthdate" value="2002-11-05" disabled>
+      </div>
+      <div class="form-group">
+        <label for="address">Adresse :</label>
+        <textarea id="address" name="address" disabled>123 rue de la Victoire, 75001 Paris</textarea>
+        <!--textarea pour les champs de texte multilignes, tandis que l'élément input avec l'attribut type="text" est utilisé pour les champs de texte à ligne unique.-->
+      </div>
+    </div>
+  
+    <h2>Informations de la société</h2>
+    <div class="company-info">
+      <div class="form-group">
+        <label for="company-name">Nom de la société :</label>
+        <input type="text" id="company-name" name="company-name" value="Ma société" disabled>
+      </div>
+      <div class="form-group">
+        <label for="company-address">Adresse de la société :</label>
+        <textarea id="company-address" name="company-address" disabled>130 rue jepij, 75000 Paris</textarea>
+      </div>
+      <div class="form-group">
+        <label for="siret">Numéro de Siret :</label>
+        <input type="text" id="siret" name="siret" value="12345678901234" disabled>
+      </div>
+      <div class="form-group">
+        <label for="chiffreAffaire">Chiffre d'affaire :</label>
+        <input type="text" id=";chiffreAffaire" name="chiffreAffaire" value="1000" disabled>
+      </div>
+    
+    </div>
+  
+    <h2>Historique des ventes</h2>
+    <div class="sales-history">
+      <p>Aucune vente pour le moment.</p>
+    </div>
+  
+    <h2>Mises en vente actuelles</h2>
+    <div class="current-sales">
+      <p>Aucune mise en vente pour le moment.</p>
+    </div>
+  
+    <div class="sell-btn">
+      <a href="depotVente.html">Déposer une vente</a>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="container">
+      <div class="category">
+        <h3>Acheter</h3>
+        <ul> 
+          <li><a href="conditions.html">Conditions générales acheteur</a></li>
+          <li><a href="contact.html">Service client</a></li>
+        </ul>
+        <!--La balise <li> est utilisée pour définir un élément de liste à l'intérieur d'une liste non ordonnée (<ul>) ou ordonnée (<ol>). 
+            Elle peut contenir tout type de contenu, y compris du texte, des images ou des liens.-->
+      </div>
+      <div class="category">
+        <h3>Vendre</h3>
+        <ul>
+          <li><a href="conditions.html">Conditions générales vendeur</a></li>
+          <li><a href="contact.html">Service client</a></li>
+        </ul>
+      </div>
+      <div class="category">
+        <h3>A propos du site</h3>
+        <ul>
+          <li><a href="histoire.html">Histoire</a></li>
+          <li><a href="conditions.html">Conditions générales d'utilisation</a></li>
+        </ul>
+      </div>
+      <div class="category">
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="contact.html">Nous contacter</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  
+    </body>
+  </html>

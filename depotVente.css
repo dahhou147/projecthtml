@@ -1,0 +1,55 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+
+form {
+	margin: 50px auto; /*marge de 50 pixels sur le haut et le bas du formulaire, et centre horizontalement le formulaire dans son conteneur parent*/
+	padding: 20px; /* définit une marge interne de 20 pixels entre les bords du formulaire et son contenu.*/
+	width: 50%; /*définit la largeur du formulaire à 50% de la largeur de son conteneur parent.*/
+	background-color: #fff;
+	border-radius: 5px; /*définit la largeur du formulaire à 50% de la largeur de son conteneur parent.*/
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /*ombre autour d'un élément, tel qu'une boîte, un bouton ou une image.*/
+    /*valeur "0" définit la position horizontale de l'ombre par rapport à l'élément. Dans ce cas, l'ombre est centrée horizontalement.
+La deuxième valeur "0" définit la position verticale de l'ombre par rapport à l'élément. Dans ce cas, l'ombre est centrée verticalement.
+La troisième valeur "10px" définit la taille de l'ombre. Dans ce cas, l'ombre a une taille de 10 pixels.
+La quatrième valeur "rgba(0, 0, 0, 0.3)" définit la couleur et l'opacité de l'ombre. Dans ce cas, l'ombre est noire avec une opacité de 0,3,*/
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input[type="text"], /*définir le style des éléments input de type text et textarea*/
+textarea {
+	display: block; /*les éléments input et textarea doivent être affichés en tant que blocs (un par ligne)*/
+	width: 100%; /*largeur de ces éléments doit être égale à 100% de la largeur de leur conteneur parent.*/
+	padding: 10px; /*marge interne de 10 pixels autour des éléments*/
+	margin-bottom: 20px; /*marge inférieure de 20 pixels pour séparer chaque élément les uns des autres.*/
+	border-radius: 5px; /*rayon de courbure de 5 pixels aux coins des éléments.*/
+	border: 1px solid #ccc;
+	box-sizing: border-box; /* prendre en compte la taille de la bordure et du rembourrage dans le calcul de la largeur totale de l'élément*/
+}
+
+input[type="file"] {
+	margin-bottom: 20px;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}

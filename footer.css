@@ -1,0 +1,58 @@
+html,
+body {
+  height: 100%;
+} /* Cela garantit que le contenu du corps remplira toute la hauteur de la fenêtre, même s'il y a peu de contenu.*/
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+ /*définit le mode d'affichage (display) du corps en tant que conteneur de disposition flexible (flex). 
+ Cela permet de définir l'alignement, la direction et la disposition des éléments enfants à l'intérieur du corps.
+L'axe principal de la disposition est défini avec la propriété flex-direction. Dans ce cas, la valeur column est utilisée pour aligner 
+les éléments enfants verticalement les uns sous les autres. Ainsi, les éléments enfants du corps, tels que le pied de page, seront alignés verticalement les uns sous les autres au bas de la page.*/
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px; /* Ajoute un espacement de 20 pixels entre le contenu du pied de page et ses bords.*/
+  text-align: center; /*Centre le texte à l'intérieur du pied de page horizontalement.*/
+  position: absolute; /*Spécifie <footer> comme étant une position absolue.*/
+  bottom: 0; /*Place la balise <footer> au bas de son élément parent, en l'occurrence le corps (<body>).*/
+  width: 100%; /* Cela garantit que la balise <footer> occupera toute la largeur de la fenêtre du navigateur.*/
+}
+
+.container { /* .container est utilisée pour définir une rangée de catégories dans le pied de page d'un site de marketplace.*/
+  display: flex; /*display: flex;, la classe .container permet de créer une disposition flexible qui va faciliter l'alignement des différentes catégories.*/
+  justify-content: space-between; /*les éléments enfants de la classe .container (ici les catégories) sont distribués de manière à ce que le premier élément (la catégorie "Acheter") soit aligné à gauche, le dernier élément (la catégorie "Contact") soit aligné à droite et les catégories restantes (Vendre et A propos du site) soient réparties également entre elles, avec un espace.*/
+  flex-wrap: wrap; /*permet .container de se répartir sur plusieurs lignes si nécessaire. Cela assure une bonne mise en page des catégories*/
+}
+
+.category {
+  flex-basis: 22%; /*chaque catégorie occuperont une largeur égale à 22% de la largeur de leur conteneur parent (la classe .container).*/
+  text-align: left;/* */
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
