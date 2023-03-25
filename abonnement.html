@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <title>Souscription à l'abonnement de livraison gratuite</title>
+    <link rel="stylesheet" type="text/css" href="abonnement.css">
+  </head>
+  <body>
+
+    <header>
+      <img src="exlogo.png" alt="Logo de votre entreprise">
+    </header>
+
+    <div class="contient">
+      <h1>Souscrire à l'abonnement de livraison gratuite</h1>
+      <p class="typewriter" id="first-sentence">Avec l'abonnement, vous bénéficiez de la livraison gratuite sur tous les articles!</p>
+      <p class="typewriter" id="second-sentence">Remplissez le formulaire ci-dessous.</p>
+    
+   
+       <form>
+        <div class="form-group">
+          <img src="livraison.png">
+        </div>
+        <div class="form-group">
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom" required>
+        </div>
+        <div class="form-group">
+          <label for="prenom">Prénom :</label>
+          <input type="text" id="prenom" name="prenom" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="carte-credit">Numéro de carte :</label>
+          <input type="text" id="carte-credit" name="carte-credit" required>
+        </div>
+        <div class="form-group">
+          <label for="date-expiration">Date d'expiration (mm/yy):</label>
+          <input type="text" id="date-expiration" name="date-expiration"><br>
+        </div>
+        <div class="form-group">
+         
+              <label for="code-securite">Code de sécurité (XXX):</label>
+              <input type="text" id="code-securite" name="code-securite">
+        </div>
+        <button type="submit" class="btn">Payer 5$ / mois</button>
+      </form>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="category">
+        <h3>Acheter</h3>
+        <ul> 
+          <li><a href="conditions.html">Conditions générales acheteur</a></li>
+          <li><a href="contact.html">Service client</a></li>
+        </ul>
+        <!--La balise <li> est utilisée pour définir un élément de liste à l'intérieur d'une liste non ordonnée (<ul>) ou ordonnée (<ol>). 
+          Elle peut contenir tout type de contenu, y compris du texte, des images ou des liens.-->
+        </div>
+        <div class="category">
+        <h3>Vendre</h3>
+        <ul>
+          <li><a href="conditions.html">Conditions générales vendeur</a></li>
+          <li><a href="contact.html">Service client</a></li>
+        </ul>
+        </div>
+        <div class="category">
+        <h3>A propos du site</h3>
+        <ul>
+          <li><a href="histoire.html">Histoire</a></li>
+          <li><a href="conditions.html">Conditions générales d'utilisation</a></li>
+        </ul>
+        </div>
+        <div class="category">
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="contact.html">Nous contacter</a></li>
+        </ul>
+        </div>
+      </div>
+      </footer>
+
+  </body>
+</html>

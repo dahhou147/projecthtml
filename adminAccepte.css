@@ -1,0 +1,58 @@
+@import 'footer.css';
+
+header 
+{
+	background-color: #1c79a1;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+}
+
+header img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+
+.admin-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .accept-btn, .refuse-btn {
+    padding: 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .accept-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .refuse-btn {
+    background-color: #f44336;
+    color: white;
+  }

@@ -1,0 +1,119 @@
+@import 'footer.css';
+
+header {
+	background-color: #1c79a1;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+}
+
+header img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+p{
+        flex: 1;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 20px;
+        color : #1c79a1;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .contient {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+
+    
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
+
+  footer
+{
+    position: sticky;
+}
+
+.typewriter {
+  overflow: hidden; /* pour cacher le texte à l'origine */
+  white-space: nowrap; /* pour empêcher les sauts de ligne */
+}
+
+#first-sentence {
+  text-align: left;
+  animation: typing1 3s steps(30, end) forwards; /* animation de l'effet de machine à écrire pour la première phrase */
+}
+
+#second-sentence {
+  text-align: center;
+  animation: typing2 3s steps(30, end) forwards; /* animation de l'effet de machine à écrire pour la deuxième phrase */
+  animation-delay: 3s; /* délai de 3 secondes avant le début de l'animation de la deuxième phrase */
+  
+}
+
+@keyframes typing1 {
+  from {
+      width: 0;
+  }
+  to {
+      width: 100%;
+  }
+}
+
+@keyframes typing2 {
+  from {
+      width: 0;
+  }
+  to {
+      width: 100%;
+  }
+}
