@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page de recherche</title>
+	<link rel="stylesheet"  href="pagederecherche.css">
+	<style>
+		body{
+   			width: 100%;
+    		height: 100%;
+    		background-image:url(/home/cytech/jeans.png);
+    		background-size:cover ;
+			background-attachment: scroll;
+		}
+	</style>
+</head>
+<body>
+	<div class="nvbar">
+		<img src="logos.png" class="logo">
+		<ul>
+			<li>
+				<div class="dropdown">
+					<p>Connexion</p>
+					<div class="dropdown-content">
+					  <a href="compteAcheteur.html">acheteur</a>
+					  <a href="compteVendeur.html">vendeur</a>
+					</div>
+				  </div>
+			</li>
+			<li><a href="Panier.html">Panier</a></li>
+		</ul>
+	</div>
+	<form class="search-form">
+		<select>
+			<option>Trier Par</option>
+			<option value="op1">Plus recent</option>
+			<option>Prix le plus bas</option>
+			<option>Prix le plus élevé</option>
+		</select>
+		<select>
+			<option>Sexe</option>
+		  	<option value="Homme">Homme</option>
+		  	<option value="Femme">Femme</option>
+		</select>
+		<select name="taille" id="taille">
+			<option>Taille</option>
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			<option value="XXL">XXL</option>
+		</select>
+		<select name="couleur" id="couleur">
+			<option>Couleur</option>
+			<option value="blanc">Blanc</option>
+          	<option value="bleu">Bleu</option>
+          	<option value="Gris">Gris</option>
+			<option value="Mauve">Mauve</option>
+			<option value="rouge">rouge</option>
+			<option value="vert">vert</option>
+		</select>
+		<select name="style" id="style">
+			<option>Style</option>
+			<option value="cargo">cargo</option>
+			<option value="Bootcut">Bootcut</option>
+			<option value="coupe éffilée">coupe éffilée</option>
+			<option value="coupe évasé">coupe évasé</option>
+			<option value="pantalon jogger">pantalon jogger</option>
+			<option value="cargo">cargo</option>
+		</select>
+		<button type="submit">Search</button>
+	  </form>	  
+	<main>
+		<div class="product">
+			<img src="exemple.png">
+			<h2>nom du produit 1</h2>
+			<p>Description of product 1.</p>
+			<p>Réference vendeur</p>
+			<p>$9.99</p>
+			<button><a href="Panier.html" style="color: aliceblue; text-decoration: none;"> Ajouter au Panier</a></button>
+		</div>
+		<div class="product">
+			<img src="exemple.png">
+			<h2>Nom du produit 2</h2>
+			<p>Description of product 2.</p>
+			<p>Réference vendeur</p>
+			<p>$19.99</p>
+			<button><a href="Panier.html" style="color: aliceblue; text-decoration: none;"> Ajouter au Panier</a></button>
+		</div>
+	
+			<div class="product">
+			<img src="exemple.png">
+			<h2>Nom du produit 3</h2>
+			<p>Description of product 3.</p>
+			<p>Réference vendeur</p>
+			<p>$29.99</p>
+			<button><a href="Panier.html" style="color: aliceblue; text-decoration: none;"> Ajouter au Panier</a></button>
+		</div>
+	</main>
+</body>
+</html>
