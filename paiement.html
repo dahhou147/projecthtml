@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <title>Paiement de la commande</title>
+    <link rel="stylesheet" href="paiement.css">
+</head>
+<body>
+    <header>
+		<img src="exlogo.png" alt="Logo de votre entreprise">
+	</header>
+
+    <div class="groscarre">
+        <h1>Paiement de la commande</h1>
+        <form action="">
+            <fieldset>
+                <legend>Adresse de livraison</legend>
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom"><br>
+
+                <label for="prenom">Prénom:</label>
+                <input type="text" id="prenom" name="prenom"><br>
+
+                <label for="adresse">Adresse:</label>
+                <input type="text" id="adresse" name="adresse"><br>
+
+                <label for="ville">Ville:</label>
+                <input type="text" id="ville" name="ville"><br>
+
+                <label for="pays">Pays:</label>
+                <input type="text" id="pays" name="pays"><br>
+
+                <label for="code-postal">Code postal:</label>
+                <input type="text" id="code-postal" name="code-postal"><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Informations de paiement</legend>
+                <label for="nom-carte">Nom sur la carte:</label>
+                <input type="text" id="nom-carte" name="nom-carte"><br>
+
+                <label for="numero-carte">Numéro de carte:</label>
+                <input type="text" id="numero-carte" name="numero-carte"><br>
+
+                <label for="date-expiration">Date d'expiration:</label>
+                <input type="text" id="date-expiration" name="date-expiration"><br>
+                <style>
+                  .code{
+                      width: 40%; /*réduire la taille du rectangle contenant le code HTML à 40% de la largeur de son conteneur parent*/
+                  }
+                </style>
+              
+              <div class="code">
+                  <label for="code-securite">Code de sécurité:</label>
+                  <input type="text" id="code-securite" name="code-securite">
+              </div>
+              <br>
+            </fieldset>
+
+            <input type="submit" value="Valider le paiement">
+        </form>
+    </div>
+
+    <footer>
+		<div class="container">
+		  <div class="category">
+			<h3>Acheter</h3>
+			<ul> 
+			  <li><a href="conditions.html">Conditions générales acheteur</a></li>
+			  <li><a href="contact.html">Service client</a></li>
+			</ul>
+			<!--La balise <li> est utilisée pour définir un élément de liste à l'intérieur d'une liste non ordonnée (<ul>) ou ordonnée (<ol>). 
+				Elle peut contenir tout type de contenu, y compris du texte, des images ou des liens.-->
+		  </div>
+		  <div class="category">
+			<h3>Vendre</h3>
+			<ul>
+			  <li><a href="conditions.html">Conditions générales vendeur</a></li>
+			  <li><a href="contact.html">Service client</a></li>
+			</ul>
+		  </div>
+		  <div class="category">
+			<h3>A propos du site</h3>
+			<ul>
+			  <li><a href="histoire.html">Histoire</a></li>
+			  <li><a href="conditions.html">Conditions générales d'utilisation</a></li>
+			</ul>
+		  </div>
+		  <div class="category">
+			<h3>Contact</h3>
+			<ul>
+			  <li><a href="contact.html">Nous contacter</a></li>
+			</ul>
+		  </div>
+		</div>
+	  </footer>
+      
+</body>
+</html>
